@@ -38,7 +38,4 @@ Restart=on-failure/always
 WantedBy=multi-user.target
 
 _______
-sudo systemctl daemon-reload
-sudo systemctl enable %name%
-sudo systemctl restart %name%
-sudo systemctl status %name%
+
