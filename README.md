@@ -19,7 +19,8 @@ Installing on Debian/GNU:
 3. python -m pip install -r requirements.txt
 
 4. nano /lib/systemd/system/%name%.service
----
+_______
+
 [Unit]
 Description=%%
 After=network.target
@@ -35,7 +36,8 @@ Restart=on-failure/always
 
 [Install]
 WantedBy=multi-user.target
----
+
+_______
 sudo systemctl daemon-reload
 sudo systemctl enable %name%
 sudo systemctl restart %name%
