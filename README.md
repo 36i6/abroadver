@@ -13,7 +13,7 @@ Installing on Debian/GNU:
 
 1. Install nginx + letsencrypt
 
-2. Bot working on webhook (polling existing and commented in app.py, but undesirable)
+2. Bot working on webhook (polling existing and commented in app.py, but undesirable), 
     Port: 7771
 
 3. python -m pip install -r requirements.txt
