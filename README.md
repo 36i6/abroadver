@@ -1,7 +1,7 @@
 # abroadver
 TG bot for verify from abroad
 
-Simple telegram bot for verifying services via abroad sms
+Simple telegram bot for verifying services via abroad sms.
 Project was created as an experiment aka diploma work
 
 Project needs for adding FSMContent, SQLite encryption, minor string manipulations for working well as real service.
